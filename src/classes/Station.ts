@@ -15,7 +15,7 @@ export class Station {
         return this._nom
     }
     setNom(nom: string): void {
-        this._nom
+        this._nom = nom
     }
 
     getLongitude(): number {
