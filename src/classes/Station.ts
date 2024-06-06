@@ -31,4 +31,10 @@ export class Station {
     setLatitude(latitude: number) {
         this._latitude = latitude
     }
+
+    setPosition(latitude: number, longitude: number): void {
+        this.setLatitude(latitude)
+        this.setLongitude(longitude)
+    }
+
 }
